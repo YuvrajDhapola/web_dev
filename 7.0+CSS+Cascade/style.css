@@ -3,10 +3,28 @@
 .box {
   background-color: blue;
   padding: 10px;
+  
 }
 
 p {
-  color: yellow;
+  color:white ;
   margin: 0;
   padding: 0;
+}
+
+#outer-box{
+  border: 10px solid purple;
+}
+.white-text{
+  background-color: red;
+  height: 35px;
+}
+p{
+  font-size: medium;
+  color: yellow;
+}
+.white-text{
+  color: white; 
+  padding-top: 10px;
+ 
 }

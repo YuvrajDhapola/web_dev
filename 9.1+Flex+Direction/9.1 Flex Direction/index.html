@@ -12,9 +12,22 @@
   <style>
     .container {
       color: white;
-      border: 5px solid gold;
-      display: flex;
+   
+      display:flex;
+      flex-wrap:wrap;
+      
     }
+
+    .container > *{
+      flex-basis:80px;
+      
+
+    }
+
+    .green{
+      order: -1;
+    }
+    
 
     /*
 Select all the elements that are the direct
